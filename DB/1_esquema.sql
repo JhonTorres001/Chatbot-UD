@@ -1,0 +1,1 @@
+CREATE SCHEMA chat_bot AUTHORIZATION postgres;
