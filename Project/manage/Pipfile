@@ -1,0 +1,31 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+black = "*"
+
+[packages]
+flask = "*"
+flask-sqlalchemy = "*"
+flask-migrate = "*"
+flask-script = "*"
+marshmallow = "*"
+flask-bcrypt = "*"
+pytest = "*"
+coverage = "*"
+pytest-cov = "*"
+python-coveralls = "*"
+gunicorn = "*"
+python-dotenv = "*"
+psycopg2-binary = "*"
+pyjwt = "*"
+pystache = "*"
+boto3 = "*"
+
+[requires]
+python_version = "3.7"
+
+[pipenv]
+allow_prereleases = true
