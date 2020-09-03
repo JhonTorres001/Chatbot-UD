@@ -1,0 +1,19 @@
+export flask_app=run.pyc
+export FLASK_ENV=development
+python run.py
+
+
+MANEJO DE PIPFILE - ENTORNO VIRTUAL
+
+Explicacion: https://www.youtube.com/watch?v=PTZiDnuC86g&t=912s
+
+pip3 install pipenv
+
+pipenv shell
+
+sudo pipenv install flask flask-sqlalchemy flask-marshmallow marshmallow-sqlalchemy
+
+opcional: pipenv install -r requirements.txt
+
+
+EJM: Request: http://0.0.0.0:5000/api/v1/question
